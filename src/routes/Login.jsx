@@ -3,8 +3,8 @@ import { UserContext } from '../context/UserProvider'
 import { useNavigate } from 'react-router-dom'
 
 const Login = () => {
-    const [email,setEmail]= useState("emgallego@uao.edu.co");
-    const [password,setPasword]= useState("q1234567890");
+    const [email,setEmail]= useState("davidsrm2004@gmail.com");
+    const [password,setPasword]= useState("r3152273101");
     const {loginUser} =useContext(UserContext);
     const navega = useNavigate();
 
