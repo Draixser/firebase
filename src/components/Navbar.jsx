@@ -1,4 +1,3 @@
-
 import { UserContext } from "../context/UserProvider"
 import { NavLink } from "react-router-dom"
 import { useContext } from "react"
@@ -7,6 +6,7 @@ const Navbar = () => {
     const{user,signOutUser}=useContext(UserContext);
     const handleClicklogOut= async()=>{
         try {
+            console.log("")
             await signOutUser();
             
         } catch (error) {
