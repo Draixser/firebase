@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #ff9751;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -13,14 +13,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
+
+
 
 body {
   margin: 0;
@@ -28,27 +22,48 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+
+  background-image: url('img/Sin título.png'); 
+  background-size: cover;
+  background-repeat: no-repeat; 
+background-position: center; 
+font-family: "Comic", Sans MS;
+color: #000000;
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  text-align: center;
+  font-family: Comic Sans MS;
+  font-weight: 700;
+  font-size: 80px;
+  color: #f29f05;
+  text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68;
 }
 
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
+ 
+  
+  color: #000;
+  margin: 0 0.5rem;
+  background-color: #bfd989;
+  border-radius: 0.4rem;
+  font-size: 4rem;
+  padding: 0.4rem 1rem;
   cursor: pointer;
-  transition: border-color 0.25s;
+  color: #f29f05;
+  border: 1px solid #ffffff;
+  border-radius: 25px;
+  font-size: 60px;
+  font-family: Comic Sans MS;
+  font-weight: 700;
+  text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68;
+
 }
 button:hover {
-  border-color: #646cff;
-}
+  color: #bfd989;
+  background: #f29f05
+ }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
@@ -62,7 +77,46 @@ button:focus-visible {
   a:hover {
     color: #747bff;
   }
-  button {
-    background-color: #f9f9f9;
+   
+    
+  
+
   }
+
+
+input[type="text"],
+ input[type="password"], 
+ input[type="email"] 
+ { margin-bottom: 15px;
+ padding: 10px;
+  font-size: 1em;
+  border-radius: 5px;
+   border: 1px solid #ccc;
+   width: 100%; max-width: 300px;
+    box-sizing: border-box;
+ }
+
+
+
+/* Estilo para el botón Register */
+.ButtonMenu {
+  margin: 0 0.5rem;
+  background-color: #bfd989;
+  border-radius: 15px; /* Reducido para hacerlo proporcional */
+  font-size: 30px; /* Reducido el tamaño de fuente */
+  padding: 0.2rem 0.5rem; /* Menos espacio interno */
+  cursor: pointer;
+  color: #f29f05;
+  border: 1px solid #ffffff;
+  font-family: Comic Sans MS;
+  font-weight: 700;
 }
+
+.ButtonMenu:hover {
+  color: #bfd989;
+  background: #f29f05
+}
+
+
+
+

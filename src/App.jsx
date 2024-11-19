@@ -24,7 +24,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <h1>APP</h1>
+      <h1></h1>
 
       <Routes>
         <Route path="/" element={<RequireAuth />}>

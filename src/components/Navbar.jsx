@@ -24,27 +24,38 @@ const Navbar = () => {
         <div className="container flex flex-wrap justify-between items-center mx-auto">
           <Link to="/" className="flex items-center">
             <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
-              URLShort APP
+             
             </span>
           </Link>
           <div className="flex md:order-2">
             {user ? (
               <>
-                <NavLink to="/" className={classButtonBlue}>
+                <NavLink to="/" className="ButtonMenu">
+                
                   Inicio
+
                 </NavLink>
-                <button onClick={handleClicklogOut} className={classButtonRed}>
+                <button onClick={handleClicklogOut} className="ButtonMenu">
                   Logout
                 </button>
               </>
             ) : (
               <>
-                <NavLink to="/login" className={classButtonBlue}>
+             
+
+        
+                <NavLink to="/login" className="ButtonMenu">
                   Login
                 </NavLink>
-                <NavLink to="/register" className={classButtonBlue}>
+        
+                
+             
+                <NavLink to="/register" className="ButtonMenu">
                   Register
                 </NavLink>
+               
+                
+               
               </>
             )}
           </div>
